@@ -1,0 +1,38 @@
+.goal-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .goal-set label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .goal-set select {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .goal-set input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .goal-set input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
