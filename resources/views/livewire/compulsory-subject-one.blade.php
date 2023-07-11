@@ -1,5 +1,62 @@
 <div>
-    <x-jet-form-section submit="insertMarks">
+
+<form method="post" action="goalset.php">
+        <table>
+            <tr>
+                <th>Subjects</th>
+                <th>BOT</th>
+                <th>TM</th>
+                <th>MID</th>
+                <th>DIV</th>
+                <th>TM</th>
+                <th>EOT</th>
+                <th>DIV</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="subject1" /></td>
+                <td><input type="number" name="subject1_set1" /></td>
+                <td><input type="number" name="subject1_set2" /></td>
+                <td><input type="number" name="subject1_set3" /></td>
+                <td><input type="number" name="subject1_set4" /></td>
+                <td><input type="number" name="subject1_set2" /></td>
+                <td><input type="number" name="subject1_set3" /></td>
+                <td><input type="number" name="subject1_set4" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="subject2" /></td>
+                <td><input type="number" name="subject2_set1" /></td>
+                <td><input type="number" name="subject2_set2" /></td>
+                <td><input type="number" name="subject2_set3" /></td>
+                <td><input type="number" name="subject2_set4" /></td>
+                <td><input type="number" name="subject1_set2" /></td>
+                <td><input type="number" name="subject1_set3" /></td>
+                <td><input type="number" name="subject1_set4" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="subject3" /></td>
+                <td><input type="number" name="subject3_set1" /></td>
+                <td><input type="number" name="subject3_set2" /></td>
+                <td><input type="number" name="subject3_set3" /></td>
+                <td><input type="number" name="subject3_set4" /></td>
+                <td><input type="number" name="subject1_set2" /></td>
+                <td><input type="number" name="subject1_set3" /></td>
+                <td><input type="number" name="subject1_set4" /></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="subject4" /></td>
+                <td><input type="number" name="subject4_set1" /></td>
+                <td><input type="number" name="subject4_set2" /></td>
+                <td><input type="number" name="subject4_set3" /></td>
+                <td><input type="number" name="subject4_set4" /></td>
+                <td><input type="number" name="subject1_set2" /></td>
+                <td><input type="number" name="subject1_set3" /></td>
+                <td><input type="number" name="subject1_set4" /></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- <x-jet-form-section submit="insertMarks">
         <x-slot name="title">
             {{ __('Subject One') }}
         </x-slot>
@@ -67,7 +124,7 @@
                 {{ __('Save') }}
             </x-jet-button>
         </x-slot>
-    </x-jet-form-section>
+    </x-jet-form-section> -->
 
 </div>
 

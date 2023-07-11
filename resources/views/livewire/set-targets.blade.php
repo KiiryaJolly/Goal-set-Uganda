@@ -34,8 +34,12 @@
               <tr>
                 <th scope="col" class="px-6 py-4">Subject</th>
                 <th scope="col" class="px-6 py-4">Paper</th>
+                <th scope="col" class="px-6 py-4">BOT</th>
                 <th scope="col" class="px-6 py-4">TM</th>
-                <th scope="col" class="px-6 py-4">AM</th>
+                <th scope="col" class="px-6 py-4">MID</th>
+                <th scope="col" class="px-6 py-4">DIV</th>
+                <th scope="col" class="px-6 py-4">TM</th>
+                <th scope="col" class="px-6 py-4">EOT</th>
                 <th scope="col" class="px-6 py-4">DIV</th>
               </tr>
             </thead>
